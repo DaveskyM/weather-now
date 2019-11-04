@@ -1,7 +1,17 @@
 const express = require('express')
 const app = express()
+
+//setting view engine
+app.set('view engine','ejs');
+
+/*
+ROUTES
+*/
+//GET /
  
+
 app.get('/', function (req, res) {
+    res.render('home.ejs');
   res.send('Hello World')
 })
  
