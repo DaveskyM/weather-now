@@ -1,4 +1,41 @@
+body {
+    width: 800px;
+    margin: 0 auto;
+    font-family: "open sans",sans-serif;
+    
+    
+}
+.container{
+    width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.ghost-input, p {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 30px 0;
+    font-family: 'Open Sans',Verdana;
+    font-size: 30px;
+    font-weight: 75px;
+    color: black;
+    border: 0;
+    outline: none;
 
+}
+
+.ghost-input:focus {
+    border-bottom:2px solid #dddddd ;
+}
+.ghost-button{
+    border: 1px solid #dddddd;
+    width: 100%;
+    min-width: 350px;
+    padding: 10px 30px;
+    transition: all .5s ease-in-out;
+}
+.ghost-button:hover {
+    border: 2px solid #515151;
+}
 p {
-    color: blue;
+    color: black;
 }
