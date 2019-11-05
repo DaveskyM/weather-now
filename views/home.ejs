@@ -11,11 +11,17 @@
 <body>
     <div class="container"> 
 
-        <form>
-        <input class="ghost-input" type="text" placeholder="Enter city">
+        <form action="/" method="POST">
+        <input name="city" class="ghost-input" type="text" placeholder="Enter city">
         <input class="ghost-button" type="submit" value="weather now">
         </form>
-        <p> The weather in new york is 70 C</p>
+            <%if(conditon){ %>
+                <p><%= error %</p>
+            <%} else { %>
+                <p><%= weather %</p>
+            <%} %>
+        
+        
     </div>
     
 </body>
